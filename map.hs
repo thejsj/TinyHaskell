@@ -12,4 +12,3 @@ filter' p (x:xs)
 
 wordNums :: String -> [(String, Int)]
 wordNums a = map (\x -> (head x, length x)) $ (group . sort . words) a
-

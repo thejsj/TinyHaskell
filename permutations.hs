@@ -12,4 +12,3 @@ main = do
   let strs = read strs' :: [String]
   print (permutationsForString strs n "")
   putStrLn "Done"
-

@@ -1,5 +1,3 @@
-
-
 includes :: Eq a => a -> [a] -> Bool
 includes _ [] = False
 includes x l
